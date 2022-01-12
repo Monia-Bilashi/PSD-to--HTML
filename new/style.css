@@ -1,0 +1,70 @@
+*{padding:0;margin:0;box-sizing:border-box}
+body{background-color:gray;font-family:Georgia}
+.template{margin:0 auto;width:1000px;background-color:#fff;color:#666;border-top:8px solid #ff5d30}
+h1,h1,h3,h4,h5 h6{font-size:30px}
+p{font-size:13px}
+.wrap{width:960px;margin:auto}
+.header{height:180px}
+.header-top{height:42px;border-bottom:1px solid #666}
+.header-top p{font-size:12px;text-align:right;margin-top:9px;padding-top:8px}
+.header-top a{text-decoration:none;color:#666;font-size:12px}
+.header-top a:hover{text-decoration:none;color:#666;font-size:16px}
+.main-header{height:135px;border-bottom:1px solid #666}
+.logo{width:220px;float:left}
+.logo h1{font-size:36px;font-style:italic;text-transform:capitalize;padding-top:30px
+}
+.logo p{}
+.nav{width:640px;float:right}
+.nav ul{list-style-type:none;float:right;padding-top:58px}
+.nav ul li{float:left;border-right:1px solid #666}
+.nav ul li:last-child{border-right:none;padding-right:0;margin:0}
+.nav ul li a{font-size:14px;text-transform:uppercase;text-decoration:none;padding:10px;color:#666}
+.nav ul li a:hover{color:#000}#active{color:#ff5d30}
+.main{height:510px;margin:0;position:relative;border-bottom:1px solid #666}
+.main-contents{width:300px;height:430px;float:left;margin:15px;margin-top:38px;background-color:#eaeaea}
+.main-contents:first-child{margin-left:0}.main-contents:last-child{margin-right:0}
+.main-contents img{width:100%;height:280px;margin:0;padding:0}
+.main-contents h4{font-size:20px;margin:20px 15px;font-style:italic;text-transform:capitalize}
+.main-contents h4 a{text-decoration:none;color:#666}
+.main-contents h4 a:hover{color:#ff5d30}
+.main-contents p{margin:0;font-size:13px;line-height:19px;padding:0 15px;text-transform:capitalize}
+.shout{height:110px;background-color:#f0f0f0;border-bottom:1px solid #666}
+.shout-content{}.sc-left{width:460px;float:left}
+.sc-left h1{font-style:italic;font-size:36px;text-align:center;margin-top:22px}
+.sc-left p{font-size:16px;text-transform:capitalize;text-align:center}
+.sc-right{width:490px;float:right}.sc-right form{margin-top:20px 20px}
+#subscribe{margin-top:35px;padding:10px;width:285px;height:35px;background-color:#e8e8e8;border:1px solid #e0e0e0;border-radius:5px;background:linear-gradient(#f2f2f2,#e7e7e7,#f2f2f2);box-shadow:0 0 1px #333}
+#signup{margin-top:35px;margin-left:15px;padding:10px;width:100px;height:35px;background-color:#e8e8e8;border:1px solid #e0e0e0;border-radius:5px;background:linear-gradient(#f2f2f2,#e7e7e7,#f2f2f2);box-shadow:0 0 1px #333;color:#989898;text-transform:uppercase;font-weight:700}
+#signup:hover{color:#ff5d30;font-weight:700}
+.sc-right form input{}.latest{height:260px;margin:0;padding:0}
+.lt-info{}.lt-info h2{font-size:20px;font-style:italic;margin:0 0 15px}
+.lt-info p{font-size:13px;line-height:19px;text-transform:initial}
+.lt-service{margin-top:40px}
+.service-box{width:225px;float:left;margin-right:20px}
+.service-box:last-child{margin-right:0}
+.service-box img{width:100%;height:140px;border-style:groove;margin:0 0 15px}
+.service-box p{font-size:13px;line-height:20px;letter-spacing:inherit;text-transform:initial;margin:0 0 10px}
+.service-box a{text-decoration:none;color:#ff5d30;margin-bottom:0;padding-bottom:0}
+.footer{height:305px;background-color:#333}.ftr-wrap{width:960px;margin:0 auto;display:flex}
+.ftr-contents{width:225px;margin-right:38px;float:left;color:#989898}
+.ftr-contents:last-child{margin-right:0}
+.about{}
+.about h2,.quicklinks h2,.ltblog h2,.contact h2{font-size:12px;font-weight:700;color:#fff;text-transform:uppercase;padding:30px 0 20px;letter-spacing:1.5px}
+.about p,.ltblog{font-size:12px;line-height:20px;color:#989898}
+.abt-rm{}.abt-rm a{float:right;font-size:12px;padding-top:20px;color:#989898;text-decoration:none}
+.abt-rm a:hover{color:#ff5d30;cursor:pointer}.quicklinks{}.quicklinks ul{list-style-type:none;color:#989898}
+.quicklinks ul li{font-size:12px;line-height:26px;border-bottom:1px solid #8b8b8b}
+.quicklinks ul li:hover{background-color:#222}.quicklinks ul li:last-child{border-bottom:none}
+.quicklinks ul li a{text-decoration:none;color:#989898}
+.quicklinks ul li a:hover{color:#ff5d30}
+.ltblog{}
+.ltblog p{font-size:12px;color:#989898;line-height:20px}
+.lb-rm{float:right}
+.contact{}
+.contact form input,textarea{width:210px;padding:7px;margin-bottom:8px;border-radius:5px;background-color:#353535;border-style:inset;border-color:#303030;color:#fff;font-size:12px}
+#fbtn{width:80px;padding:7px;margin-bottom:8px;border-radius:5px;background-color:#353535;border-style:inset;border-color:#303030;color:#696969}
+#fbtn:hover{color:#ff5d30;font-weight:700}
+.copyright{display:flex;background-color:#222;height:60px;margin:0;position:relative;box-shadow:0 2px 3px 0 #2e2e2e}
+.cleft{margin:0;top:50%;position:absolute;transform:translateY(-50%);-ms-transform:translateY(-50%);margin-left:20px;color:#666}
+.cright{float:right;margin-left:auto;margin-right:20px;margin-top:25px;position:-ms-page;color:#666}
+#Designer:hover{color:#166fe5}
